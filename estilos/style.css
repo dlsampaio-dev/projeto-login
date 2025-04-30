@@ -36,13 +36,16 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.26);
+
+    transition: width 0.2s, heigth 0.2s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: rgb(22, 22, 128) url(../img/Abstrat.jpg) no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center center;
     height: 200px;
 }
 
